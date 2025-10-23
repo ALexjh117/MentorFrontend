@@ -58,8 +58,9 @@ export default defineConfig({
     open: true,
     proxy: {
       "/api": {
-        target: "http://localhost:3001",
+        target: "https://mentorbackend-1z70.onrender.com",
         changeOrigin: true,
+        secure: true,
       },
     },
   },
